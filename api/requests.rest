@@ -1,0 +1,17 @@
+GET http://localhost:5001/todos
+
+###
+POST http://localhost:5001/todo/new 
+Content-Type: application/json
+
+{
+    "text" : "lets have dinner"
+}
+
+###
+DELETE http://localhost:5001/todos/delete/63f63d1ce6328a743a285c85
+
+###
+PUT http://localhost:5001/todos/complete/63f5ec728a5fbdc1cdb3a98d
+
+ 
