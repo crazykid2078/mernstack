@@ -46,7 +46,7 @@ function App() {
 	}
 	return (
 		<div className="App">
-			<h1>Welcome, Sakshi :)</h1>
+			<h1>Welcome, User :)</h1>
 			<h4>Your T@$Ks</h4>
 
 			<div className="todos">
